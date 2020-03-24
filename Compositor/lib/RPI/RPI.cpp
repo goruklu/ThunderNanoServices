@@ -261,8 +261,6 @@ namespace Plugin {
                     }
 
                     _adminLock.Unlock();
-
-                    client->ZOrder(_clients.size());
                 }
             }
         }
